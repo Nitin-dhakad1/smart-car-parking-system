@@ -1,0 +1,30 @@
+name: smart_car_parking_system
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0-312.0.dev <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  equatable: ^2.0.5
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.1
+  cupertino_icons: ^1.0.2
+  dynamic_color: ^1.5.4
+  data_repository:
+    path: packages/data_repository
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
